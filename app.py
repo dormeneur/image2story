@@ -47,4 +47,4 @@ generate_story(img2text("IMAGE2SPEECH\\basketballdunk.jpg"))
 print("It worked!")
 
 #lemme try this just once more 
-print("this really worked!!")
+print("this really worked!!!")
