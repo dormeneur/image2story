@@ -41,3 +41,7 @@ def generate_story(scenario):
 
 generate_story(img2text("IMAGE2SPEECH\\basketballdunk.jpg"))
 #text to speech
+
+
+# why is this so hard 
+print("It worked!")
