@@ -7,6 +7,7 @@ from langchain_community.llms import OpenAI
 load_dotenv(find_dotenv())
 
 pipe = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base", max_new_tokens=50)
+
 #image to text
 def img2text(url):
     try:
@@ -18,7 +19,6 @@ def img2text(url):
         print(f"Error during image-to-text generation: {e}")
         return None
 img2text("IMAGE2SPEECH\\basketballdunk.jpg")
-
 
 #llm
 def generate_story(scenario):
@@ -38,9 +38,8 @@ def generate_story(scenario):
     print(story)
     return story
 
-
 generate_story(img2text("IMAGE2SPEECH\\basketballdunk.jpg"))
+
 #text to speech
 
-
-#i can make any changes in this file
+# coming soon...
